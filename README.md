@@ -6,27 +6,6 @@ In this workshop, we will build an end-to-end pipeline to do some tasks about ho
 ## Preferred Region:
 The feature at the end of this lab is still in Preview (as of 05-01-2020) and available in "us-east-1". We caution however that APIs can often change between preview to when a feature becomes generally available, so we are including it in the lab for testing purposes only. 
 
-The end-to-end architecture we will build in this lab is the following:
-
-![](media/image22.png)
-
-Table of Contents
-=================
-
-[Create S3 buckets](#create-s3-buckets)
-
-[Create Glue job for extracting and storing raw data
-](#create-glue-job-for-extracting-and-storing-raw-data)
-
-[Catalog RAW data.](#catalog-raw-data.)
-
-[Create Glue Job to join data](#_Toc24374324)
-
-[Automate the data processing pipeline using Glue Workflow
-](#automate-the-data-processing-pipeline-using-glue-workflowoptional)
-
-[Machine Learning](#Machine Learning)
-
 
 Create S3 buckets
 =================
