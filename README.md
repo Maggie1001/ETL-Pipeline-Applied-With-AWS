@@ -1,10 +1,10 @@
 # How to build an end-to-end Machine Learning pipeline using AWS Glue, Amazon S3.
 
-In this workshop, we will build an end-to-end pipeline to do some tasks about hotel. Our pipeline will combine several different data sources, use AWS Glue for serverless extract-transform-load (ETL) jobs, Amazon Simple Storage Service (S3) for storage and staging the datasets.
+We build an end-to-end pipeline to do some tasks about hotel. Our pipeline will combine several different data sources, use AWS Glue for serverless extract-transform-load (ETL) jobs, Amazon Simple Storage Service (S3) for storage and staging the datasets.
 
 
 ## Preferred Region:
-The feature at the end of this lab is still in Preview (as of 05-01-2020) and available in "us-east-1". We caution however that APIs can often change between preview to when a feature becomes generally available, so we are including it in the lab for testing purposes only. 
+The feature is available in "us-east-1". We caution however that APIs can often change between preview to when a feature becomes generally available, so we are including it in the lab for testing purposes only. 
 
 
 Create S3 buckets
@@ -296,6 +296,4 @@ Result:
 +---------------+-------------+------------+------+
 ```
 
-Spark Jobs:
 
-![Spark Jobs](./img/hotels-spark.png "Spark Jobs")
